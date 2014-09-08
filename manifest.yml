@@ -1,0 +1,9 @@
+---
+applications:
+- name: sinatratest
+  memory: 512M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/cf-buildpack-ruby.git
+  host: sinatratest-svennela
+  timeout: 180
+  
